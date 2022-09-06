@@ -4,4 +4,4 @@
 
 A simple, static web page to display my basic qualifications and resume.
 
-You can view the site at [here](https://jordanwmckee.github.io/portfolio-website/)
+You can view the site [here](https://jordanwmckee.github.io/portfolio-website/)
