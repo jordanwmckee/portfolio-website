@@ -1,207 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jordan McKee</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!--Header Section-->
     <section id="header">
-        <div class="header container">
-            <div class="nav-bar">
-                <div class="brand">
-                    <a href="#hero"><h1><span>J</span>ordan <span>M</span>cKee</h1></a>
-                </div>
-                <div class="nav-list">
-                    <div class="hamburger"><div class="bar"></div></div>
-                    <ul>
-                        <li><a href="#hero" data-after="Home">Home</a></li>
-                        <li><a href="#skills" data-after="Services">Skills</a></li>
-                        <li><a href="#projects" data-after="Projects">Projects</a></li>
-                        <li><a href="#about" data-after="About">About</a></li>
-                        <li><a href="#contact" data-after="Contact">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero"
+              ><h1><span>J</span>ordan <span>M</span>cKee</h1></a
+            >
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#skills" data-after="Services">Skills</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
     <!--End Header Section-->
 
     <!--Hero Section-->
     <section id="hero">
-        <div class="hero container">
-            <div>
-                <h1>Hello, <span></span></h1>
-                <h1>My Name is<span></span></h1>
-                <h1>Jordan<span></span></h1>
-                <a href="#projects" type="button" class="cta">Portfolio</a>
-            </div>
+      <div class="hero container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>My Name is<span></span></h1>
+          <h1>Jordan<span></span></h1>
+          <a href="#projects" type="button" class="cta">Portfolio</a>
         </div>
+      </div>
     </section>
     <!--End Hero Section-->
 
     <!--Skill Section-->
     <section id="skills">
-        <div class="skills container">
-            <div class="skill-top">
-                <h1 class="section-title">Sk<span>i</span>lls</h1>
-            </div>
-            <div class="skill-bottom">
-                <div class="skill-item">
-                    <h2>C++</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>Java</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>HTML/CSS</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>JavaScript</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>PHP</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>Python</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>SQL</h2>
-                </div>
-                <div class="skill-item">
-                    <h2>Swift</h2>
-                </div>
-            </div>
+      <div class="skills container">
+        <div class="skill-top">
+          <h1 class="section-title">Sk<span>i</span>lls</h1>
         </div>
+        <div class="skill-bottom">
+          <div class="skill-item">
+            <h2>C++</h2>
+          </div>
+          <div class="skill-item">
+            <h2>React</h2>
+          </div>
+          <div class="skill-item">
+            <h2>TypeScript</h2>
+          </div>
+          <div class="skill-item">
+            <h2>Java</h2>
+          </div>
+          <div class="skill-item">
+            <h2>HTML/CSS</h2>
+          </div>
+          <div class="skill-item">
+            <h2>JavaScript</h2>
+          </div>
+          <div class="skill-item">
+            <h2>PHP</h2>
+          </div>
+          <div class="skill-item">
+            <h2>Python</h2>
+          </div>
+          <div class="skill-item">
+            <h2>SQL</h2>
+          </div>
+          <div class="skill-item">
+            <h2>Swift</h2>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End Skill Section-->
 
     <!--Projects Section-->
     <section id="projects">
-        <div class="projects container">
-            <div class="projects-header">
-                <h1 class="section-title">Recent <span>Projects</span></h1>
-            </div>
-            <div class="all-projects">
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 1</h1>
-                        <h2>Website Interactive Builder</h2>
-                        <p>Developed a web application packaged in electron; gives users the flexibility to design and edit web pages within a
-                            graphical user interface and download the source code to use or further customize.</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./imgs/project1.jpg" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 2</h1>
-                        <h2>RTSP Server Testing Tool</h2>
-                        <p>Created a testing tool with shell scripting and ffmpeg, and packaged it in a docker image. It provides fake camera
-                            connections to a server through an rtsp stream by streaming sample videos upon rtsp request.</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./imgs/project2.jpg" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 3</h1>
-                        <h2>Java Game</h2>
-                        <p>Designed and programmed a simple "Asteroids" game in java that implements java swing. Taking user input to
-                            update the graphics, it allows the user to shoot the asteroids and aim for a high score.</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./imgs/project3.jpg" alt="img">
-                    </div>
-                </div>
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Project 4</h1>
-                        <h2>Online File Storage</h2>
-                        <p>Designed a wesbite using HTML, CSS, PHP, and JavaScript to upload and store files. After prompting user for login information, they are directed to the main page that displays a list of files currently saved and available for download, as well as an option to upload new files to be stored</p>
-                    </div>
-                    <div class="project-img">
-                        <img src="./imgs/project4.jpg" alt="img">
-                    </div>
-                </div>
-            </div>
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
         </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 1</h1>
+              <h2>Spotify Wrapped Monthly</h2>
+              <p>
+                Developed a website with React using vite, typescript, the
+                Spotify Web Api, and the Spotify Playback SDK. It allows users
+                to sign in with their Spotify account and gives a detailed view
+                of their monthly listening analytics, allows them to listen to
+                their top tracks of the month, follow artists, and add songs to
+                their playlists.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./imgs/project1.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 2</h1>
+              <h2>RTSP Server Testing Tool</h2>
+              <p>
+                Created a testing tool with shell scripting and ffmpeg, and
+                packaged it in a docker image. It provides fake camera
+                connections to a server through an rtsp stream by streaming
+                sample videos upon rtsp request.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./imgs/project2.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 3</h1>
+              <h2>Java Game</h2>
+              <p>
+                Designed and programmed a simple "Asteroids" game in java that
+                implements java swing. Taking user input to update the graphics,
+                it allows the user to shoot the asteroids and aim for a high
+                score.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./imgs/project3.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 4</h1>
+              <h2>Online File Storage</h2>
+              <p>
+                Designed a wesbite using HTML, CSS, PHP, and JavaScript to
+                upload and store files. After prompting user for login
+                information, they are directed to the main page that displays a
+                list of files currently saved and available for download, as
+                well as an option to upload new files to be stored
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./imgs/project4.jpg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End Projects Section-->
 
     <!--About Section-->
     <section id="about">
-        <div class="about container">
-            <div class="col-left">
-                <div class="about-img">
-                    <img src="./imgs/about.jpg" alt="img">
-                </div>
-            </div>
-            <div class="col-right">
-                <h1 class="section-title">About <span>Me</span></h1>
-                <h2>Student/Software Developer</h2>
-                <p>I solve problems in creative ways. As a junior at The University of Akron, majoring in Computer Science, I have learned that everything has a solution- you just have to be crazy enough to find it. The best parts about entering into an everchanging industry with an infinite amount of knowledge to be obtained is that it rewards curiosity, and encourages a love for learning.
-                <br><br>
-                Whether by creating a little game to play with my friends, or by automating a process through the use of programming, I love applying concepts I learn to make things more efficient, useful, and fun.
-                <br><br>
-                My specialties include quickly learning new skills and programming languages, creative problem solving, high-energy leadership, and organization. So far, I have familiarized myself with C++, JavaScript, Java, Python, HTML, CSS, PHP, SQL, and Swift. I am very enthusiastic about learning new programming languages and frameworks and am already starting to learn the basics of React Native.</p>
-                <a href="./imgs/resume.pdf" class="cta" target="_blank">Download Resume</a>
-            </div>
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./imgs/about.jpg" alt="img" />
+          </div>
         </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>Me</span></h1>
+          <h2>Student/Software Developer</h2>
+          <p>
+            I solve problems in creative ways. As a junior at The University of
+            Akron, majoring in Computer Science, I have learned that everything
+            has a solution- you just have to be crazy enough to find it. The
+            best parts about entering into an everchanging industry with an
+            infinite amount of knowledge to be obtained is that it rewards
+            curiosity, and encourages a love for learning. <br /><br />
+            Whether by creating a little game to play with my friends, or by
+            automating a process through the use of programming, I love applying
+            concepts I learn to make things more efficient, useful, and fun.
+            <br /><br />
+            My specialties include quickly learning new skills and programming
+            languages, creative problem solving, high-energy leadership, and
+            organization. So far, I have familiarized myself with C++,
+            JavaScript, Java, Python, HTML, CSS, PHP, SQL, and Swift. I am very
+            enthusiastic about learning new programming languages and frameworks
+            and am already starting to learn the basics of React Native.
+          </p>
+          <a href="./imgs/resume.pdf" class="cta" target="_blank"
+            >Download Resume</a
+          >
+        </div>
+      </div>
     </section>
     <!--End About Section-->
 
     <!--Contact Section-->
     <section id="contact">
-        <div class="contact container">
-            <div>
-                <h1 class="section-title">Contact <span>Info</span></h1>
-            </div>
-            <div class="contact-items">
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/phone.png" /></div>
-                    <div class="contact-info">
-                        <h1>Phone</h1>
-                        <h2>+1 216 789 3647</h2>
-                    </div>
-                </div>
-                <div class="contact-item">
-                    <div class="icon"><img src="https://img.icons8.com/ios-filled/50/000000/new-post.png" /></div>
-                    <div class="contact-info">
-                        <h1>Email</h1>
-                        <h2>jwm109@uakron.edu</h2>
-                        <h2>jordanmckee@outlook.com</h2>
-                    </div>
-                </div>
-            </div>
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>Info</span></h1>
         </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/phone.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+1 216 789 3647</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/ios-filled/50/000000/new-post.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2>jwm109@uakron.edu</h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End Contact Section-->
 
     <!--Footer Section-->
     <section id="footer">
-        <div class="footer container">
-            <div class="brand"><h1><span>J</span>ordan <span>M</span>cKee</h1></div>
-            <h2>Check out my Socials!</h2>
-            <div class="social-icon">
-                <div class="social-item">
-                    <a href="https://linkedin.com/in/jordanwmckee" target="_blank"><img src="https://img.icons8.com/fluency/144/000000/linkedin.png"/></a>
-                </div>
-                <div class="social-item">
-                    <a href="https://github.com/jordanwmckee" target="_blank"><img src="https://img.icons8.com/color-glass/240/000000/github.png"/></a>
-                </div>
-            </div>
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>J</span>ordan <span>M</span>cKee</h1>
         </div>
+        <h2>Check out my Socials!</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://linkedin.com/in/jordanwmckee" target="_blank"
+              ><img
+                src="https://img.icons8.com/fluency/144/000000/linkedin.png"
+            /></a>
+          </div>
+          <div class="social-item">
+            <a href="https://github.com/jordanwmckee" target="_blank"
+              ><img
+                src="https://img.icons8.com/color-glass/240/000000/github.png"
+            /></a>
+          </div>
+        </div>
+      </div>
     </section>
     <!--End Footer Section-->
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
